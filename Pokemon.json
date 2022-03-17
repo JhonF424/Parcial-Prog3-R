@@ -1,0 +1,30 @@
+[
+    {
+        "Name": "Blastoise",
+        "Element": "water",
+        "Skills": {
+            "tipo": "water",
+            "Moves": [
+                "Hydro Pump",
+                "Rain Dance",
+                "Iron Defence",
+                "Skull Bash"
+            ]
+        },
+        "Game_Info": {
+            "Stats": {
+                "Pokemon_Stats": {
+                    "HP": 79,
+                    "Attack": 83,
+                    "Defense": 100,
+                    "Sp_Atk": 85,
+                    "Sp_Def": 105,
+                    "Speed": 78
+
+                }
+            },
+            "Region": "Kanto",
+            "Pokedex_Index": 9
+        }
+    }
+]

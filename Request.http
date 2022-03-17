@@ -1,0 +1,56 @@
+###
+POST http://localhost:3000/api/v1/pokemon/create HTTP/1.1
+Content-Type: application/json
+
+{
+        "Name": "Blastoise",
+        "Element": "water",
+        "Skills": [{
+            "tipo": "Earth/Wather",
+            "Moves": [
+                "Hydro Pump",
+                "Rain Dance",
+                "Iron Defence",
+                "Skull Bash"
+            ]
+        }],
+        "Game_Info": [{
+            "Stats": [{
+                "Pokemon_Stats": [{
+                    "HP": 79,
+                    "Attack": 83,
+                    "Defense": 100,
+                    "Sp_Atk": 85,
+                    "Sp_Def": 105,
+                    "Speed": 78
+                }]
+            }],
+            "Region": "Alola",
+            "Pokedex_Index": 90
+        }]
+    }
+
+
+###
+GET http://localhost:3000/api/v1/pokemon/90 HTTP/1.1
+
+###
+DELETE http://localhost:3000/api/v1/pokemon/delete/62332f98b4cf20278582bb5d HTTP/1.1
+
+###
+PUT http://localhost:3000/api/v1/pokemon/edit/62333626bc8e391e12aa64f8 HTTP/1.1
+Content-Type: application/json
+
+{
+        "Name": "Charmander",
+        "Element": "Fire",
+        "Skills": [{
+            "tipo": "Fly/Fire",
+            "Moves": [
+                "Hydro Pump",
+                "Rain Dance",
+                "Iron Defence",
+                "Skull Bash"
+            ]
+        }]
+    }
